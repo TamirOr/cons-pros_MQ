@@ -1,0 +1,28 @@
+Hi 
+
+Dor Zeevi 203519699
+Tamir Or 305170151
+Sagiv Levy 203516794
+
+Instructions:
+
+1. extract all file to same directory
+
+2. type "make" or "make all" to compile the project
+
+3. manual:
+3a. run the server(encypter) type: ./server.out
+
+3b. to run the client(dcypter) type: ./client.out *client_ID* *(optional)number_of_max_round* 
+                                   ! without flags !
+
+4. to run with the launcher type: ./launcher.out *number_of_clients*
+                                   ! without flags !
+
+5. type "make clean" to clean all .out files.
+
+Notes:
+- password's and key's length are hard-coded at mq_include.h (as instructed by the lecturer) = {ORIGINAL_PASS_LENGTH, KEY_LENGTH}
+- its the user responsibility to enter unique ID for every client meaning = NO DUPLICATE ID (as instructed by the lecturer)
+- its possible to force-stop the clients with Ctrl + C ONLY if two or more clients are working!
+
